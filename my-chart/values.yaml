@@ -1,0 +1,16 @@
+backend:
+  replicas: 2
+  image:
+    repo: ghcr.io/saidalhendi/backend
+    tag: v0.0.1
+
+imagePullSecrets:
+  name: regcred
+  
+
+frontend:
+  apiUrl: https://said.praxis-form.de
+  replicas: 2
+  image:
+    repo: ghcr.io/saidalhendi/frontend
+    tag: v1
