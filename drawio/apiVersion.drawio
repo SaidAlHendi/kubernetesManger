@@ -1,0 +1,67 @@
+<mxfile host="65bd71144e">
+    <diagram id="d8opu2QWekQMizAdbkyF" name="Page-1">
+        <mxGraphModel dx="1511" dy="1176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="5" y="70" width="290" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;b&gt;apiVersion: v1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="2" vertex="1">
+                    <mxGeometry x="82.5" y="20" width="125" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Pod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="2" vertex="1">
+                    <mxGeometry x="25" y="60" width="110" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="2" vertex="1">
+                    <mxGeometry x="155" y="60" width="110" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Secret" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="2" vertex="1">
+                    <mxGeometry x="25" y="125" width="110" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="ConfigMap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="2" vertex="1">
+                    <mxGeometry x="155" y="125" width="110" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Namespace" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="2" vertex="1">
+                    <mxGeometry x="25" y="190" width="110" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="PersistentVolumeClaim" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11;" parent="2" vertex="1">
+                    <mxGeometry x="155" y="190" width="110" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="585" y="70" width="260" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;apiVersion: apps/v1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="4" vertex="1">
+                    <mxGeometry x="50" y="15" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Deployment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="4" vertex="1">
+                    <mxGeometry x="30" y="55" width="200" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="ReplicaSet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="4" vertex="1">
+                    <mxGeometry x="30" y="115" width="200" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="5" y="400" width="290" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;b&gt;apiVersion: networking.k8s.io/v1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="15" vertex="1">
+                    <mxGeometry x="35" y="15" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Ingress" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;" parent="15" vertex="1">
+                    <mxGeometry x="75" y="55" width="140" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="555" y="400" width="260" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;b&gt;apiVersion: cert-manager.io/v1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="18" vertex="1">
+                    <mxGeometry x="25" y="15" width="210" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Certificate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" parent="18" vertex="1">
+                    <mxGeometry x="60" y="55" width="140" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;Each Api Version&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;defines a different set of objects we can use&amp;nbsp;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="305" y="250" width="270" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
