@@ -14,3 +14,22 @@ frontend:
   image:
     repo: ghcr.io/saidalhendi/frontend
     tag: v1
+
+
+grafana:
+  enabled: true
+  ingress:
+    enabled: true
+    ingressClassName: nginx
+    # Values can be templated
+    annotations:
+      nginx.ingress.kubernetes.io/ssl-redirect: 'false'
+      nginx.ingress.kubernetes.io/force-ssl-redirect: 'false'
+    path: /
+    pathType: Prefix
+    hosts:
+      - grafana.praxis-form.de
+    tls:
+      - secretName: grafana-praxis-form-tls
+        hosts:
+          - grafana.praxis-form.de
